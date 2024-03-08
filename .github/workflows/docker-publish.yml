@@ -6,11 +6,8 @@ name: Docker
 # documentation.
 
 on:
-  schedule:
-    - cron: '36 9 * * *'
   push:
     branches: [ "main" ]
-    # Publish semver tags as releases.
     tags: latest
   pull_request:
     branches: [ "main" ]
@@ -24,7 +21,6 @@ env:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
