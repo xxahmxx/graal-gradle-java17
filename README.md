@@ -1,6 +1,8 @@
 # graal-gradle-java17
 Builder for native images
 
+https://github.com/xxahmxx/graal-gradle-java17/actions/workflows/docker-publish.yml/badge.svg
+
 ### Usage example
 ```Dockerfile
 FROM ghcr.io/xxahmxx/graal-gradle-java17:latest as build
