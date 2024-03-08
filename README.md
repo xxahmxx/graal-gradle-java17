@@ -1,9 +1,9 @@
 # graal-gradle-java17
-Builder for java native images
+Builder for native images
 
 ### Usage example
 ```Dockerfile
-FROM bookworm-slim:jdk17-gradle-8.6-graal as build
+FROM ghcr.io/xxahmxx/graal-gradle-java17:latest as build
 WORKDIR /src
 COPY . .
 
